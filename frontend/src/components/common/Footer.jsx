@@ -44,7 +44,7 @@ const Footer = () => {
               <img className="w-[180px] h-auto object-contain group-hover:scale-105 transition-transform bg-white rounded-lg px-2 py-1" src={logo} alt="Sunlink Power" />
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Leading supplier of high-quality solar products across Africa.
+              Leading supplier of high-quality solar products across Rwanda.
               We provide reliable, affordable renewable energy solutions for homes and businesses.
             </p>
 
@@ -52,7 +52,14 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm">
                 <FiMapPin className="w-5 h-5 text-primary flex-shrink-0" />
-                <span>The Garden Hotel office 735, 7Floor, Building 5 and 6, No.368 Huanshi East Road, Yuexiu District, Guangzhou.</span>
+                <a 
+                  href="https://www.google.com/maps?q=-1.895731806755066,30.053661346435547&z=17&hl=en" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-white font-semibold hover:text-primary transition-colors flex-1"
+                >
+                  Karuruma, Gasabo, Kigali, Rwanda
+                </a>
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <FiPhone className="w-5 h-5 text-primary flex-shrink-0" />
